@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+    <meta charset="uft-8">
+    <meta name = "viewport" content = "width= device-width, initial-scale=1.0">
+    <title> My Website</title>
+    <style>
+        table{ width:100%; border-collapse:collapse;}
+        table, th, td { border: 1px solid black;}
+        th, td { padding: 8px; text-align: left;}
+        form{ margin-top:20px}
+        form div{ margin-bottom: 10px;}
+    </style>
+    </head>
+    <body>
+        <h1> Welcome to mywebsite</h1>
+        <h2> ordered List</h2>
+        <ol type = "i">
+            <li> Home</li>
+            <li> Download</li>
+            <li> Contact</li>
+        </ol>
+        <h2> External Image</h2>
+        <image src = "C:\Users\Admin\Desktop\My_Website\IMAGES\Autumn Breeze.jpg" alt ="Beautifull Autumn Breeze" width ='600'>
+            <h2> contacts</h2>
+            <table>
+                <thread> 
+                    <tr>
+                        <th> Name</th>
+                        <th> Address</th>
+                        <th> Telephone</th>
+                        <th> Email</th>
+                    </tr>
+                </thread>
+                <tbody> 
+                    <tr> 
+                        <td> Mark Evans</td>
+                        <td> P.o Box 830 Kco</td>
+                        <td> 0114432321</td>
+                        <td> mevans@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td> Rose Birir</td>
+                        <td> P.o Box 102 KPN</td>
+                        <td> 0721234567</td>
+                        <td> Roseb@yahoo.com</td>
+                    </tr>
+                    <tr>
+                        <td> Victor Anderson</td>
+                        <td> P.o Box 111 KPN</td>
+                        <td> 0112233445</td>
+                        <td> v.ander@gmail.com</td>
+                    </tr>
+                    <tr> 
+                        <td> Nicholus Robert</td>
+                        <td> P.O Box 001 NRB</td>
+                        <td> 0111223344</td>
+                        <td> bobnich@ymail.com</td>
+                    </tr>
+                    <tr>
+                        <td> Enoch Tare</td>
+                        <td> Private Bag NAIROBI</td>
+                        <td> 254700112243</td>
+                        <td> taree@ymail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2> Registration Form</h2>
+            <form action = "/submit" method="post">
+                <div>
+                    <label for ="name"> Name:</label>
+                    <input type ="text" id = "name" name ="name" required>
+                </div>
+                <div> 
+                    <label for ="email"> Email:</label>
+                    <input type ="email" id = "email" name ="email" required>
+                </div>
+                <div>
+                    <label for ="password"> password:</label>
+                    <input type ="password" id ="password" name ="password" required>
+                </div>
+                <div>
+                    <label for = "confirm-password"> confirm password:</label>
+                    <input type="password" id ="confirm-password" name ="confirm-password" required>
+                </div>
+                <div>
+                    <button type ="submit"> Register</button>
+                </div>
+            </form>
+    </body>
+</html>
